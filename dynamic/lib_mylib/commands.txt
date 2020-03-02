@@ -1,0 +1,3 @@
+g++ -c lib_mylib.cpp -o lib_mylib.o -fpic
+
+g++ lib_mylib.o -shared -o lib_mylib.so

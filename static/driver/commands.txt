@@ -1,0 +1,3 @@
+g++ -c driver.cpp -o driver.o
+
+g++ -o driver driver.o -L../lib_mylib -l_mylib

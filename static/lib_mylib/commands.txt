@@ -1,0 +1,3 @@
+g++ -c lib_mylib.cpp -o lib_mylib.o 
+
+ar rcs lib_mylib.a lib_mylib.o

@@ -1,0 +1,7 @@
+g++ -c driver.cpp -o driver.o
+g++ -o driver driver.o -ldl
+
+ldd driver
+
+// To view list of functions in lib.so
+nm -D lib_mylib.so

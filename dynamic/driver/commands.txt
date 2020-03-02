@@ -1,0 +1,7 @@
+g++ -c driver.cpp -o driver.o
+
+g++ -o driver driver.o -L../lib_mylib -l_mylib
+
+export LD_LIBRARY_PATH=../lib_mylib:$LD_LIBRARY_PATH
+
+ldd driver
