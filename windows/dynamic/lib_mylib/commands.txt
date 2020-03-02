@@ -1,0 +1,2 @@
+cl  /EHsc /LD lib_mylib.cpp /FemyLib.dll
+

@@ -1,0 +1,7 @@
+
+cl /EHsc driver.cpp ../lib_mylib/myLib.lib
+
+// To view dependents
+dumpbin /dependents driver.exe
+
+set PATH=%PATH%;../lib_mylib/

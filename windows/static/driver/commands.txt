@@ -1,0 +1,6 @@
+
+cl /EHsc driver.cpp /link ../lib_mylib/lib_mylib.lib
+
+// To view dependents
+dumpbin /dependents driver.exe
+

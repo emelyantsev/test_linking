@@ -1,0 +1,2 @@
+cl /c /EHsc lib_mylib.cpp
+lib lib_mylib.obj

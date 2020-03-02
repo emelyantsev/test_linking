@@ -1,0 +1,4 @@
+
+cl /EHsc driver.cpp /Fedriver.exe
+
+dumpbin /EXPORTS ..\lib_myLib\myLib.dll
